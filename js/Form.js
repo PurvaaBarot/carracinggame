@@ -32,6 +32,9 @@ class Form{
            player.updateCount(0);
            game.update(0);
            Player.updatecarsAtEnd(0);
+            db.ref('/').update({
+               players:null
+           })
        })
         
     }
