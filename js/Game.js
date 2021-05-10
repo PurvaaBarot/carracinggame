@@ -78,7 +78,7 @@ class Game{
         if(touches.length>0|| keyDown(UP_ARROW) && player.index!= null ){
             player.distance=player.distance+50;
             player.update();
-            touches=[];
+          //  touches=[];
         }
 
         if(player.distance>4230){
