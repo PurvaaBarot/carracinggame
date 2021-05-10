@@ -50,7 +50,7 @@ class Game{
         player.getcarsAtEnd();
         if(allPlayers!==undefined){
             background(groundImg);
-            image(trackImg,0,-windowHeight*4,windowWidth,windowHeight*5);
+            image(trackImg,0,-windowHeight*6,windowWidth,windowHeight*7);
          //  var y=250;
             for(var p in allPlayers){
                 y=windowHeight-allPlayers[p].distance;
@@ -81,7 +81,7 @@ class Game{
           //  touches=[];
         }
 
-        if(player.distance>4230){
+        if(player.distance>4950){
             gameState=2
             player.rank=player.rank+1
             player.update();
